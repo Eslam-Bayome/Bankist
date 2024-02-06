@@ -249,7 +249,7 @@ cloeForm.addEventListener('click', function () {
 });
 
 goToMain.addEventListener('click', function () {
-  window.location.href = '../index.html';
+  window.location = '../index.html';
 });
 //! /////////////////////////////////////////////////////////////
 //~ Validation for our in inputs
