@@ -85,7 +85,6 @@ const emailAlert = document.getElementById('emailAlert');
 const passAlert = document.getElementById('passAlert');
 const loginAlert = document.getElementById('loginAlert');
 
-const goToMain = document.querySelector('#goToMain');
 let currentAcc, ourTimer;
 // =================================================================
 
@@ -248,9 +247,7 @@ cloeForm.addEventListener('click', function () {
   closeForm();
 });
 
-goToMain.addEventListener('click', function () {
-  window.location = '../index.html';
-});
+
 //! /////////////////////////////////////////////////////////////
 //~ Validation for our in inputs
 fName.addEventListener('input', function () {
